@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 typealias widthOfFont = String
-
 extension widthOfFont {
     func width(usingFont font: UIFont) -> CGFloat {
         let fontAttributes = [NSAttributedString.Key.font: font]
